@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/search">
+        <Link className="navbar-brand" to="/search">
           Google Books
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -20,12 +21,12 @@ class Nav extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="/search">
+            <Link className="nav-item nav-link active" to="/search">
               Search <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link" href="/saved">
+            </Link>
+            <Link className="nav-item nav-link" to="/saved">
               Saved
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
