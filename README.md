@@ -4,9 +4,9 @@ This application was built with React, Express, Mongodb and Node.js.
 
 The front-end and backend are in the same project so requests from the front end are proxied to the backend.
 
-![NYT-Google-Books-Search](./public/images/ScreenShot.png)
+![NYT-Google-Books-Search](./images/screenshot.gif)
 
-[Deployed Site](https://sheltered-gorge-46172.herokuapp.com/)
+[Deployed Site](https://peaceful-oasis-84988.herokuapp.com/)
 
 ### Overview
 
