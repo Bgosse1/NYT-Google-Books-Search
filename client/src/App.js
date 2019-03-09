@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Saved from "./pages/Saved";
 import Search from "./pages/Search";
